@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-gen"
+version = "0.1.0"
+description = ""
+authors = ["nawat <n.ngerncham@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_gen"}]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+jupyter = "^1.0.0"
+numpy = "^1.24.2"
+seaborn = "^0.12.2"
+pandas = "^1.5.3"
+scipy = "^1.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
